@@ -1,0 +1,49 @@
+
+.title{
+    position: relative;
+    background-color: #f9f9f9;
+    color: #888;
+    font-size: 20px;
+    height: 34px;
+    overflow: hidden;
+    line-height:34px;
+    margin: 0 0 20px;
+    padding: 6px 20px;
+}
+.title-more{
+    font-size: 15px;
+    color: #888;
+    position: relative;
+}
+.title-more::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: transparent #888 #888 transparent;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.title-hd{
+
+    color: #888;
+    border-left: 10px solid #bc2826;
+    padding-left: 10px;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+}
+.company .pic{
+
+    position: relative;
+}
+.company .pic-info{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

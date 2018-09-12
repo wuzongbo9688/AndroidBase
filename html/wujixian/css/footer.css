@@ -1,0 +1,32 @@
+.footer-bg{
+    background-color: #5d5d58;
+    height: 278px;
+}
+.footer-one{
+
+    padding: 30px 0 30px
+}
+.footer-one h3{
+    color: #c4c4c4;
+    padding: 8px 0px;
+    font-family: Microsoft Yahei !important;
+}
+.footer-one li{
+
+    padding: 3px 0;
+}
+.footer-one li a,.footer-one li a:hover{
+
+    color: #888888 !important;
+    font-family: Microsoft Yahei !important;
+    text-decoration: none;
+}
+.footer-second {
+    padding: 10px 0;
+    text-align: center
+}
+.footer-second a,.footer-second a:hover{
+    color: #888888 !important;
+    font-family: Microsoft Yahei !important;
+    text-decoration: none;
+}
